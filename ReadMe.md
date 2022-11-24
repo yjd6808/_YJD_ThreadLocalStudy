@@ -5,8 +5,14 @@
 
 ### 사용 방법
 
-1. 프로젝트 이름은 알아서 변경 
-   => project_name, project_name.vsxporj 이런 파일들 이름 수동으로 변경해줘야함
+1. 프로젝트 이름변경
+   1. full.sln 솔루션 파일 실행
+   2. project_name 프로젝트 이름 변경 후 비주얼 스튜디오 종료
+   3. project_name 디렉토리의 project_name.vcxproj -> 변경한 프로젝트 이름으로 변경
+   4. project_name 디렉토리의 project_name.vcxproj.filters -> 변경한 프로젝트 이름으로 변경
+   5. project_name 디렉토리의 project_name.vcxproj.user -> 변경한 프로젝트 이름으로 변경
+   6. 다시 full.sln 솔루션 파일 실행 후 로딩 실패한 프로젝트 제거 후 다시 변경된 프로젝트 로딩하면 됨
+   
 
 2. scripts/build_benchmark.bat 실행
 3. 코딩 시작

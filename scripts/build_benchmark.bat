@@ -1,20 +1,20 @@
-:: ì‘ì„±ì: ìœ¤ì •ë„
-:: ì‘ì„±ì¼: 2022/11/24
+:: ÀÛ¼ºÀÚ: À±Á¤µµ
+:: ÀÛ¼ºÀÏ: 2022/11/24
 
 @echo off
 
 cd ..
 git submodule update --init --recursive
 
-:: 32ë¹„íŠ¸ ë¹Œë“œ
+:: 32ºñÆ® ºôµå
 cmake -S . -B build/Win32 -G"Visual Studio 17 2022" -A Win32
 cmake --build build/Win32 --config Debug
 cmake --build build/Win32 --config Release
 
-:: 64ë¹„íŠ¸ ë¹Œë“œ
+:: 64ºñÆ® ºôµå
 cmake -S . -B build/x64 -G"Visual Studio 17 2022" -A x64
 cmake --build build/x64 --config Debug
 cmake --build build/x64 --config Release
 
-echo "ë¹Œë“œê°€ ëª¨ë‘ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤"
+echo "ºôµå°¡ ¸ğµÎ ¿Ï·áµÇ¾ú½À´Ï´Ù"
 timeout /t 2

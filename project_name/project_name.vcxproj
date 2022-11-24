@@ -27,7 +27,7 @@
     <ProjectGuid>{d8ff8951-02c9-4b1e-9956-42af5cf5ee3d}</ProjectGuid>
     <RootNamespace>rwlock_test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>rwlock_test</ProjectName>
+    <ProjectName>project_name</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
