@@ -12,10 +12,11 @@
    4. project_name 디렉토리의 project_name.vcxproj.filters -> 변경한 프로젝트 이름으로 변경
    5. project_name 디렉토리의 project_name.vcxproj.user -> 변경한 프로젝트 이름으로 변경
    6. 다시 full.sln 솔루션 파일 실행 후 로딩 실패한 프로젝트 제거 후 다시 변경된 프로젝트 로딩하면 됨
-   
+
 
 2. scripts/build_benchmark.bat 실행
-3. 코딩 시작
+3. git remote remove origin 기존 원격 리포지터리와 연결 끊어줌
+4. 코딩 시작
 
 <br>
 <br>
